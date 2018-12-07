@@ -1,0 +1,19 @@
+[package]
+name = "grrs"
+version = "0.1.0"
+authors = ["Siddharth Yadav <siddharth_yadav@outlook.com>"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search for patterns in file"
+readme = "README.md"
+homepage = "https://github.com/xk0nsid/grrs"
+repository = "https://github.com/xk0nsid/grrs"
+cargories = ["command-line-utilities"]
+edition = "2018"
+
+[dependencies]
+structopt = "0.2.10"
+failure = "0.1.3"
+exitfailure = "0.5.1"
+assert_cmd = "0.10"
+predicates = "1"
+tempfile = "3"
